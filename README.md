@@ -34,7 +34,7 @@ The script run_analysis.R does the following.
 		
 3) Tidy Data 
 
-The tidy data is obtained in wide row format. It is obtained by running the script run_analysis.r on the raw data.
+The tidy data is obtained in wide row format. It is obtained by running the script run_analysis.r on the raw data. The data obtained is tidy data as each variable measured is in one column and each different observation of that variable is in a different row.
 
 4) Code Book
 
