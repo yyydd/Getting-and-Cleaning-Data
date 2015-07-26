@@ -41,3 +41,6 @@ The tidy data is obtained in wide row format. It is obtained by running the scri
 The code book contains the information about the variables and the data.
 	
 
+Note 1- In order to run the script run_analysis.r successfully, please unzip the Raw Data Folder from source https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to get a folder called UCI HAR Dataset. Make this folder the working directory.
+
+Note 2- The script  run_analysis.r requires the package plyr. Use statement install.packages("plyr") to install it if it is not already installed.
