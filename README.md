@@ -19,7 +19,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The script run_analysis.R does the following.
 
 	1.Merges the training and the test sets to create one data set.
-		The files x_train.txt, y_train.txt and subject_train.txt from the training folder are concatenated with the files 				x_test.txt, y_test.txt and subject_test.txt from the test folder to create one dataset.
+		The files x_train.txt, y_train.txt and subject_train.txt from the training folder are concatenated with the files x_test.txt, y_test.txt and subject_test.txt from the test folder to create one dataset.
 		
 	2.Extracts only the measurements on the mean and standard deviation for each measurement.
 		The measurements meanFreq() are not taken beacause they are the weighted average of the frequency components.
@@ -29,8 +29,8 @@ The script run_analysis.R does the following.
 		
 	4.Appropriately labels the data set with descriptive variable names. 
 	
-	5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each 			  activity and each subject.
-		The columnwise mean of each variable by each subject and each activity is obtained.The resulting tidy data (in 					wide row format) is stored in the file tidyDataSet.txt .
+	5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+		The columnwise mean of each variable by each subject and each activity is obtained.The resulting tidy data (in wide row format) is stored in the file tidyDataSet.txt .
 		
 3) Tidy Data 
 
